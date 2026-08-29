@@ -10,6 +10,12 @@ O objetivo do projeto é construir um pipeline preditivo sobre o dataset **Adult
 - **Atributo Sensível:** `sex` (Male / Female)
 - **Variável Alvo (Target):** `income` (`>50K` / `<=50K`)
 
+### Justificativa da Escolha do Dataset
+1. **Benchmark Acadêmico de Fairness:** O *Adult Census Income* é a base de referência mundialmente reconhecida para estudos de viés e justiça em Machine Learning.
+2. **Atributos Demográficos Explícitos:** Possui colunas de grupos protegidos (gênero e raça) necessárias para avaliar métricas de equidade como Paridade Demográfica e *Disparate Impact*.
+3. **Cenário Socioeconômico de Alto Impacto:** A tarefa de predizer renda (`>50K`) simula aplicações reais de análise de crédito ou recrutamento, onde vieses algorítmicos causam prejuízos sociais diretos.
+4. **Desafios Práticos de Qualidade de Dados:** A base apresenta inconsistências reais — como caracteres nulos sob a forma de `?` e duplicatas —, sendo perfeita para validar a suíte da Aula 3.
+
 ---
 
 ## 2. Estrutura do Repositório
